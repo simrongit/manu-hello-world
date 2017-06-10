@@ -9,10 +9,7 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
       <load-on-startup>0</load-on-startup>
    </servlet>
 
-  <servlet-mapping>
-    <servlet-name>HelloWorldServlet</servlet-name>
-    <url-pattern>/HelloWorldServlet</url-pattern>
-  </servlet-mapping>
+  
   <servlet-mapping>
     <servlet-name>Angular Servlet</servlet-name>
     <url-pattern>*.ang</url-pattern>
